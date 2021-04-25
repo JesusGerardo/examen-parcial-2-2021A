@@ -11,14 +11,14 @@ public class Song {
         readSong(file);
     }
 
-    private void readSong(File file){
+    private void readSong(File file) {
         // Este método lee del archivo la canción y guarda la secuencia de notas en la lista notas
 
         // No es necesario que se implemente.
 
     }
 
-    public Iterator<Nota> getSongIterator(){
+    public Iterator<Nota> getSongIterator() {
         return notas.listIterator();
     }
 }
